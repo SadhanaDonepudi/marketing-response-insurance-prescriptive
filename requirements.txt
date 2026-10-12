@@ -1,0 +1,10 @@
+# Runtime dependencies (pinned to the versions used for the measured results)
+numpy==1.26.4
+pandas==2.1.4
+scikit-learn==1.9.1
+scipy==1.11.4
+matplotlib==3.11.2
+seaborn==0.13.2
+joblib==1.6.0
+pulp==4.0.0          # LP modeling; solved with pulp's bundled CPSAT backend
+pytest==9.1.1        # test suite only

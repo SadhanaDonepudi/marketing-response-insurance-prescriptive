@@ -1,0 +1,146 @@
+{
+  "marketing": {
+    "n_records": 45000,
+    "response_rate": 0.26064444444444446,
+    "response_rate_str": "26.1%",
+    "response_model_auc": 0.5416,
+    "response_model_auc_str": "0.54",
+    "top3_lift_pct": 30.62,
+    "top3_lift_pct_str": "30.6%",
+    "top3_response_rate_str": "34.0%",
+    "overall_response_rate_str": "26.1%",
+    "n_segments": 5,
+    "cluster_shares": [
+      0.051,
+      0.133,
+      0.324,
+      0.375,
+      0.117
+    ],
+    "decile_response_rates": [
+      0.4077,
+      0.3184,
+      0.2949,
+      0.2909,
+      0.2676,
+      0.2545,
+      0.2503,
+      0.2408,
+      0.2383,
+      0.2116
+    ]
+  },
+  "budget": {
+    "total": 500000,
+    "total_str": "$500,000",
+    "n_channels": 4,
+    "allocation": {
+      "email": 186000,
+      "sms": 136000,
+      "phone": 8000,
+      "direct_mail": 170000
+    },
+    "allocation_str": {
+      "email": "$186,000",
+      "sms": "$136,000",
+      "phone": "$8,000",
+      "direct_mail": "$170,000"
+    },
+    "lp_conversions": 97077,
+    "lp_conversions_str": "97,077",
+    "baseline_conversions": 81435,
+    "baseline_conversions_str": "81,435",
+    "conversion_gain_pct": 19.21,
+    "conversion_gain_pct_str": "19.2%",
+    "channel_economics": {
+      "email": {
+        "cost_per_contact": 1.25,
+        "marketable_universe": 148800,
+        "expected_conv_rate": 0.2776
+      },
+      "sms": {
+        "cost_per_contact": 0.85,
+        "marketable_universe": 160000,
+        "expected_conv_rate": 0.2773
+      },
+      "phone": {
+        "cost_per_contact": 7.5,
+        "marketable_universe": 20000,
+        "expected_conv_rate": 0.2841
+      },
+      "direct_mail": {
+        "cost_per_contact": 4.25,
+        "marketable_universe": 40000,
+        "expected_conv_rate": 0.2775
+      }
+    }
+  },
+  "insurance": {
+    "n_policies": 595000,
+    "claim_rate": 0.06061848739495798,
+    "claim_rate_str": "6.06%",
+    "auc": 0.6356,
+    "auc_str": "0.64",
+    "gini": 0.2712,
+    "gini_str": "0.27",
+    "target_loss_ratio": 0.62,
+    "tier_score_cutoffs": [
+      0.0372,
+      0.0462,
+      0.0573,
+      0.0783
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "policies": 35700,
+        "loss_ratio": 0.3155,
+        "loss_ratio_str": "31.5%",
+        "observed_claim_rate_str": "3.27%",
+        "recommended_rate_change": -0.2,
+        "recommended_rate_change_str": "-20.0%",
+        "action": "decrease rates"
+      },
+      {
+        "tier": 2,
+        "policies": 35700,
+        "loss_ratio": 0.3897,
+        "loss_ratio_str": "39.0%",
+        "observed_claim_rate_str": "4.17%",
+        "recommended_rate_change": -0.2,
+        "recommended_rate_change_str": "-20.0%",
+        "action": "decrease rates"
+      },
+      {
+        "tier": 3,
+        "policies": 35700,
+        "loss_ratio": 0.4848,
+        "loss_ratio_str": "48.5%",
+        "observed_claim_rate_str": "5.17%",
+        "recommended_rate_change": -0.2,
+        "recommended_rate_change_str": "-20.0%",
+        "action": "decrease rates"
+      },
+      {
+        "tier": 4,
+        "policies": 35700,
+        "loss_ratio": 0.5866,
+        "loss_ratio_str": "58.7%",
+        "observed_claim_rate_str": "6.59%",
+        "recommended_rate_change": -0.0539,
+        "recommended_rate_change_str": "-5.4%",
+        "action": "decrease rates"
+      },
+      {
+        "tier": 5,
+        "policies": 35700,
+        "loss_ratio": 0.9364,
+        "loss_ratio_str": "93.6%",
+        "observed_claim_rate_str": "11.11%",
+        "recommended_rate_change": 0.3,
+        "recommended_rate_change_str": "+30.0%",
+        "action": "increase rates"
+      }
+    ]
+  }
+}

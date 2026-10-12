@@ -1,0 +1,15 @@
+[
+  "tests/test_pipeline.py::test_claim_model_sanity",
+  "tests/test_pipeline.py::test_decile_lift_monotone",
+  "tests/test_pipeline.py::test_insurance_record_count",
+  "tests/test_pipeline.py::test_lp_beats_even_split",
+  "tests/test_pipeline.py::test_lp_budget_sums_to_500k",
+  "tests/test_pipeline.py::test_lp_four_channels",
+  "tests/test_pipeline.py::test_marketing_record_count",
+  "tests/test_pipeline.py::test_metrics_counts_match",
+  "tests/test_pipeline.py::test_readme_numbers_match_metrics",
+  "tests/test_pipeline.py::test_readme_synthetic_disclosure",
+  "tests/test_pipeline.py::test_response_model_sanity",
+  "tests/test_pipeline.py::test_risk_tiers_sane",
+  "tests/test_pipeline.py::test_segmentation_sanity"
+]
